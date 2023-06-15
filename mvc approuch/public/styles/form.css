@@ -1,0 +1,14 @@
+.form {
+	width: 100%;
+	padding: 1.2rem;
+}
+
+.form form {
+	width: 50%;
+}
+
+.form form > *.form-group {
+	padding: 0.5em 0;
+}
+
+
