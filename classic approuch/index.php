@@ -10,7 +10,7 @@
     if (!$error)
     {
 
-        if ($_REQUEST['POST'])
+        if ($_SERVER['REQUEST_METHOD'] === 'POST')
         {
             if (isset($_POST['submit']) && isset($_POST['name'])
                                         && isset($_POST['email'])
